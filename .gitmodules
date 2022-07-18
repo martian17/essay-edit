@@ -1,0 +1,6 @@
+[submodule "htmlgen"]
+	path = htmlgen
+	url = git@github.com:martian17/htmlgen.git
+[submodule "async-util"]
+	path = async-util
+	url = git@github.com:martian17/async-util.git
