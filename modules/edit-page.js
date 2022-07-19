@@ -89,7 +89,7 @@ class Editor extends ELEM {
         });
         
         let editor_body = this.add("div","class:body;");
-        this.textarea = editor_body.add("textarea");
+        this.textarea = editor_body.add("textarea","spellcheck:false;");
         this.textarea.e.value = body.body;
         
         this.foreignListeners.push(app.on("save",async ()=>{
