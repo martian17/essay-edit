@@ -274,6 +274,7 @@ Style += /*css*/ `
     border-radius:5px;
     padding:10px;
     min-height:200px;
+    overflow-wrap: break-word;
 }
 
 .boxes .box:hover{
